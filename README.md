@@ -3,6 +3,6 @@ We present VOWLMap, an extension of WebVOWL framework for validation of ontology
 
 # Authors
 
-Ana Guerreiro
-Cátia Pesquita
+Ana Guerreiro  
+Cátia Pesquita  
 Daniel Faria
