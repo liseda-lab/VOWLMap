@@ -2637,7 +2637,7 @@ a#locateSearchResult {
 
 #containerForAlignment {
     background-color: #ecf0f1;
-    height: 682px;
+    height: 100%;
     width: 100%;
     position: absolute;
     float: left;
@@ -2691,7 +2691,7 @@ a#locateSearchResult {
     margin: 0 0 5px 0;
     padding: 10px 0;
     text-align: left;
-    height: 83%;
+    height: 84%;
     width: 100%;
     overflow-y: auto;
 }
