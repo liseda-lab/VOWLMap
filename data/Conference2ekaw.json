@@ -1,0 +1,9340 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header": {
+    "baseIris": [
+      "http://Conference_ekaw.owl",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://conference#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://Conference_ekaw.owl"
+  },
+  "namespace": [],
+  "class": [
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "67",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "74",
+      "type": "owl:Class"
+    },
+    {
+      "id": "79",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "92",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "96",
+      "type": "owl:Class"
+    },
+    {
+      "id": "77",
+      "type": "owl:Class"
+    },
+    {
+      "id": "42",
+      "type": "owl:Class"
+    },
+    {
+      "id": "98",
+      "type": "owl:Class"
+    },
+    {
+      "id": "104",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "84",
+      "type": "owl:Class"
+    },
+    {
+      "id": "9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "25",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "61",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "65",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "114",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "82",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "115",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "111",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "119",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "27",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "80",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "47",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "43",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "146",
+      "type": "owl:Class"
+    },
+    {
+      "id": "122",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "121",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "70",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "148",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "91",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "149",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "35",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "141",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "73",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "155",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "143",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "89",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "153",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "156",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "97",
+      "type": "owl:Class"
+    },
+    {
+      "id": "127",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "85",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "13",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "174",
+      "type": "owl:Class"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "113",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "105",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1023",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1024",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1025",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1026",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1027",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1028",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1029",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1030",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1031",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1032",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1033",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1034",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1035",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1036",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1037",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1038",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1039",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1040",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1041",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1042",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1043",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1044",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1045",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1046",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1047",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1048",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1049",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1050",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1051",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1052",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1053",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1054",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1055",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1056",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1057",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1058",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1059",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1060",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1061",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1062",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1063",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1064",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1065",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1066",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1067",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1068",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1069",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1070",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1071",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1072",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1073",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1074",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1075",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1076",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1077",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1078",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1079",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1080",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1081",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1082",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1083",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1084",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1085",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1086",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1087",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1088",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1089",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "1090",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "1091",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1092",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1093",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1094",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1095",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1096",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "1097",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1098",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1099",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1100",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1101",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1102",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1103",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1104",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1105",
+      "type": "owl:unionOf"
+    },
+    {
+      "id": "1106",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1107",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "iri": "http://conference#Workshop",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Workshop"
+      },
+      "id": "3",
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "iri": "http://conference#Rejected_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Rejected_contribution"
+      },
+      "id": "5",
+      "superClasses": [
+        "6"
+      ]
+    },
+    {
+      "iri": "http://conference#Important_dates",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Important_dates"
+      },
+      "id": "20"
+    },
+    {
+      "iri": "http://conference#Late_paid_applicant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Late_paid_applicant"
+      },
+      "id": "26",
+      "superClasses": [
+        "27"
+      ]
+    },
+    {
+      "iri": "http://conference#Call_for_paper",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Call_for_paper"
+      },
+      "id": "30",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://conference#Reviewer",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Reviewer"
+      },
+      "id": "38",
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "iri": "http://conference#Organization",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Organization"
+      },
+      "id": "40"
+    },
+    {
+      "iri": "http://conference#Accepted_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Accepted_contribution"
+      },
+      "subClasses": [
+        "45"
+      ],
+      "id": "44",
+      "superClasses": [
+        "6"
+      ]
+    },
+    {
+      "iri": "http://conference#Presentation",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Presentation"
+      },
+      "subClasses": [
+        "52"
+      ],
+      "id": "48",
+      "superClasses": [
+        "51"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_contributor",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_contributor"
+      },
+      "subClasses": [
+        "47",
+        "54",
+        "55"
+      ],
+      "id": "53",
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "iri": "http://conference#Written_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Written_contribution"
+      },
+      "union": [
+        "61",
+        "62"
+      ],
+      "subClasses": [
+        "60",
+        "61"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "59",
+      "superClasses": [
+        "51"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference"
+      },
+      "subClasses": [
+        "8"
+      ],
+      "id": "63"
+    },
+    {
+      "iri": "http://conference#Organizing_committee",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Organizing_committee"
+      },
+      "id": "67",
+      "superClasses": [
+        "13"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_volume",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_volume"
+      },
+      "id": "8",
+      "superClasses": [
+        "63"
+      ]
+    },
+    {
+      "iri": "http://conference#Tutorial",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Tutorial"
+      },
+      "id": "71",
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "iri": "http://conference#Abstract",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Abstract"
+      },
+      "id": "74",
+      "superClasses": [
+        "75"
+      ]
+    },
+    {
+      "iri": "http://conference#Passive_conference_participant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Passive_conference_participant"
+      },
+      "id": "79",
+      "superClasses": [
+        "80"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_document",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_document"
+      },
+      "subClasses": [
+        "18",
+        "30",
+        "83",
+        "29",
+        "84",
+        "85",
+        "51"
+      ],
+      "id": "1"
+    },
+    {
+      "iri": "http://conference#Conference_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_contribution"
+      },
+      "union": [
+        "48",
+        "59",
+        "52",
+        "61",
+        "62"
+      ],
+      "subClasses": [
+        "48",
+        "59",
+        "62"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "51",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_part",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_part"
+      },
+      "subClasses": [
+        "71",
+        "3",
+        "86"
+      ],
+      "id": "4"
+    },
+    {
+      "iri": "http://conference#Review_preference",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Review_preference"
+      },
+      "id": "33"
+    },
+    {
+      "iri": "http://conference#Invited_talk",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Invited_talk"
+      },
+      "id": "52",
+      "superClasses": [
+        "48"
+      ]
+    },
+    {
+      "iri": "http://conference#Review",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Review"
+      },
+      "id": "29",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://conference#Organizer",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Organizer"
+      },
+      "union": [
+        "40",
+        "77"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "92"
+    },
+    {
+      "iri": "http://conference#Steering_committee",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Steering_committee"
+      },
+      "id": "96",
+      "superClasses": [
+        "13"
+      ]
+    },
+    {
+      "iri": "http://conference#Committee_member",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Committee_member"
+      },
+      "subClasses": [
+        "97",
+        "14"
+      ],
+      "id": "77",
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "iri": "http://conference#Review_expertise",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Review_expertise"
+      },
+      "id": "42"
+    },
+    {
+      "iri": "http://conference#Conference_fees",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_fees"
+      },
+      "id": "98"
+    },
+    {
+      "iri": "http://conference#Registeered_applicant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Registeered_applicant"
+      },
+      "subClasses": [
+        "27"
+      ],
+      "id": "104",
+      "superClasses": [
+        "105"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#date",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "2",
+      "label": {
+        "IRI-based": "date"
+      }
+    },
+    {
+      "iri": "http://conference#Call_for_participation",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Call_for_participation"
+      },
+      "id": "84",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://conference#Program_committee",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Program_committee"
+      },
+      "id": "9",
+      "superClasses": [
+        "13"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#date",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "50",
+      "label": {
+        "IRI-based": "date"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#date",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "25",
+      "label": {
+        "IRI-based": "date"
+      }
+    },
+    {
+      "iri": "http://conference#Regular_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Regular_contribution"
+      },
+      "union": [
+        "75",
+        "113"
+      ],
+      "subClasses": [
+        "75",
+        "113"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "61",
+      "superClasses": [
+        "59"
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "60",
+        "32"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "65"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "60",
+        "32"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "114"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "48",
+        "113",
+        "62"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "82"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "48",
+        "113",
+        "62"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "115"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "42",
+        "33"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "111"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "42",
+        "33"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "119"
+    },
+    {
+      "iri": "http://conference#Paid_applicant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Paid_applicant"
+      },
+      "union": [
+        "127",
+        "26"
+      ],
+      "subClasses": [
+        "127",
+        "26"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "27",
+      "superClasses": [
+        "104"
+      ]
+    },
+    {
+      "iri": "http://conference#Poster",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Poster"
+      },
+      "id": "62",
+      "superClasses": [
+        "51"
+      ]
+    },
+    {
+      "iri": "http://conference#Invited_speaker",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Invited_speaker"
+      },
+      "id": "55",
+      "superClasses": [
+        "53"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_participant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_participant"
+      },
+      "union": [
+        "79",
+        "47"
+      ],
+      "subClasses": [
+        "47",
+        "79"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "80",
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "iri": "http://conference#Active_conference_participant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Active_conference_participant"
+      },
+      "union": [
+        "54",
+        "55"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "47",
+      "superClasses": [
+        "53",
+        "80"
+      ]
+    },
+    {
+      "iri": "http://conference#Extended_abstract",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Extended_abstract"
+      },
+      "subClasses": [
+        "74"
+      ],
+      "id": "75",
+      "superClasses": [
+        "61"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "id": "43",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      }
+    },
+    {
+      "iri": "http://conference#Contribution_1th-author",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Contribution_1th-author"
+      },
+      "id": "146",
+      "superClasses": [
+        "54"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "122",
+      "label": {
+        "IRI-based": "string"
+      }
+    },
+    {
+      "instances": 0,
+      "union": [
+        "35",
+        "63",
+        "4",
+        "36",
+        "32"
+      ],
+      "attributes": [
+        "union",
+        "anonymous"
+      ],
+      "id": "121"
+    },
+    {
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "id": "70",
+      "label": {
+        "IRI-based": "Literal",
+        "undefined": "Literal"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "148",
+      "label": {
+        "IRI-based": "string"
+      }
+    },
+    {
+      "iri": "http://conference#Camera_ready_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Camera_ready_contribution"
+      },
+      "id": "45",
+      "superClasses": [
+        "44"
+      ]
+    },
+    {
+      "iri": "http://conference#Submitted_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Submitted_contribution"
+      },
+      "union": [
+        "61",
+        "62"
+      ],
+      "subClasses": [
+        "6"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "60",
+      "superClasses": [
+        "59"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#date",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "91",
+      "label": {
+        "IRI-based": "date"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "149",
+      "label": {
+        "IRI-based": "string"
+      }
+    },
+    {
+      "iri": "http://conference#Conference_proceedings",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_proceedings"
+      },
+      "id": "35"
+    },
+    {
+      "iri": "http://conference#Publisher",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Publisher"
+      },
+      "id": "36"
+    },
+    {
+      "iri": "http://conference#Chair",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Chair"
+      },
+      "id": "14",
+      "superClasses": [
+        "77"
+      ]
+    },
+    {
+      "iri": "http://conference#Information_for_participants",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Information_for_participants"
+      },
+      "id": "83",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "19",
+      "label": {
+        "IRI-based": "string"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#date",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "141",
+      "label": {
+        "IRI-based": "date"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "73",
+      "label": {
+        "IRI-based": "int"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#date",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "155",
+      "label": {
+        "IRI-based": "date"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "143",
+      "label": {
+        "IRI-based": "string"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "151",
+      "label": {
+        "IRI-based": "string"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#date",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "89",
+      "label": {
+        "IRI-based": "date"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "153",
+      "label": {
+        "IRI-based": "string"
+      }
+    },
+    {
+      "iri": "http://www.w3.org/2001/XMLSchema#int",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "id": "156",
+      "label": {
+        "IRI-based": "int"
+      }
+    },
+    {
+      "iri": "http://conference#Co-chair",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Co-chair"
+      },
+      "id": "97",
+      "superClasses": [
+        "77"
+      ]
+    },
+    {
+      "iri": "http://conference#Early_paid_applicant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Early_paid_applicant"
+      },
+      "id": "127",
+      "superClasses": [
+        "27"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_www",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_www"
+      },
+      "id": "18",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://conference#Regular_author",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Regular_author"
+      },
+      "subClasses": [
+        "174",
+        "146"
+      ],
+      "id": "54",
+      "superClasses": [
+        "53"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_announcement",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_announcement"
+      },
+      "id": "85",
+      "superClasses": [
+        "1"
+      ]
+    },
+    {
+      "iri": "http://conference#Person",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Person"
+      },
+      "subClasses": [
+        "22",
+        "53",
+        "80",
+        "38",
+        "105",
+        "77"
+      ],
+      "id": "39"
+    },
+    {
+      "iri": "http://conference#Reviewed_contribution",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Reviewed_contribution"
+      },
+      "union": [
+        "44",
+        "5"
+      ],
+      "subClasses": [
+        "44",
+        "5"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "6",
+      "superClasses": [
+        "60"
+      ]
+    },
+    {
+      "iri": "http://conference#Committee",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Committee"
+      },
+      "union": [
+        "96",
+        "9",
+        "67"
+      ],
+      "subClasses": [
+        "96",
+        "9",
+        "67"
+      ],
+      "attributes": [
+        "union"
+      ],
+      "id": "13"
+    },
+    {
+      "iri": "http://conference#Contribution_co-author",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Contribution_co-author"
+      },
+      "id": "174",
+      "superClasses": [
+        "54"
+      ]
+    },
+    {
+      "iri": "http://conference#Topic",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Topic"
+      },
+      "id": "32"
+    },
+    {
+      "iri": "http://conference#Track-workshop_chair",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Track-workshop_chair"
+      },
+      "id": "22",
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "iri": "http://conference#Paper",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Paper"
+      },
+      "id": "113",
+      "superClasses": [
+        "61"
+      ]
+    },
+    {
+      "iri": "http://conference#Track",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Track"
+      },
+      "id": "86",
+      "superClasses": [
+        "4"
+      ]
+    },
+    {
+      "iri": "http://conference#Conference_applicant",
+      "baseIri": "http://conference",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_applicant"
+      },
+      "subClasses": [
+        "104"
+      ],
+      "id": "105",
+      "superClasses": [
+        "39"
+      ]
+    },
+    {
+      "iri": "http://ekaw#SC_Member",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "SC_Member"
+      },
+      "id": "1023",
+      "superClasses": [
+        "1093"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Conference_Session",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_Session"
+      },
+      "subClasses": [
+        "1041"
+      ],
+      "id": "1024",
+      "superClasses": [
+        "1028"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Academic_Institution",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Academic_Institution"
+      },
+      "subClasses": [
+        "1040",
+        "1062"
+      ],
+      "id": "1025",
+      "superClasses": [
+        "1026"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Organisation",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Organisation"
+      },
+      "subClasses": [
+        "1025",
+        "1035",
+        "1082"
+      ],
+      "id": "1026",
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#PC_Chair",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PC_Chair"
+      },
+      "id": "1027",
+      "superClasses": [
+        "1080",
+        "1093"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Session",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Session"
+      },
+      "subClasses": [
+        "1024",
+        "1055",
+        "1059",
+        "1067",
+        "1069"
+      ],
+      "id": "1028",
+      "superClasses": [
+        "1081"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Possible_Reviewer",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Possible_Reviewer"
+      },
+      "subClasses": [
+        "1093"
+      ],
+      "id": "1029",
+      "superClasses": [
+        "1036"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Location",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Location"
+      },
+      "id": "1030",
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Conference_Banquet",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_Banquet"
+      },
+      "id": "1031",
+      "superClasses": [
+        "1044"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Paper"
+      },
+      "subClasses": [
+        "1037",
+        "1039",
+        "1045",
+        "1058",
+        "1068",
+        "1071",
+        "1078",
+        "1102"
+      ],
+      "id": "1032",
+      "superClasses": [
+        "1091"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Session_Chair",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Session_Chair"
+      },
+      "id": "1033",
+      "superClasses": [
+        "1080",
+        "1093"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Web_Site",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Web_Site"
+      },
+      "id": "1034",
+      "superClasses": [
+        "1091"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Proceedings_Publisher",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Proceedings_Publisher"
+      },
+      "id": "1035",
+      "superClasses": [
+        "1026"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Person",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Person"
+      },
+      "subClasses": [
+        "1029",
+        "1047",
+        "1053",
+        "1076",
+        "1080"
+      ],
+      "id": "1036",
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Submitted_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Submitted_Paper"
+      },
+      "subClasses": [
+        "1064"
+      ],
+      "id": "1037",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Conference_Proceedings",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_Proceedings"
+      },
+      "id": "1038",
+      "superClasses": [
+        "1049"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Poster_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Poster_Paper"
+      },
+      "id": "1039",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#University",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "University"
+      },
+      "id": "1040",
+      "superClasses": [
+        "1025"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Industrial_Session",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Industrial_Session"
+      },
+      "id": "1041",
+      "superClasses": [
+        "1024"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Neutral_Review",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Neutral_Review"
+      },
+      "id": "1042",
+      "superClasses": [
+        "1060"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Rejected_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Rejected_Paper"
+      },
+      "id": "1043",
+      "superClasses": [
+        "1074"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Social_Event",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Social_Event"
+      },
+      "subClasses": [
+        "1031",
+        "1046"
+      ],
+      "id": "1044",
+      "superClasses": [
+        "1083"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Workshop_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Workshop_Paper"
+      },
+      "id": "1045",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Conference_Trip",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_Trip"
+      },
+      "id": "1046",
+      "superClasses": [
+        "1044"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Agency_Staff_Member",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Agency_Staff_Member"
+      },
+      "id": "1047",
+      "superClasses": [
+        "1036"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Conference",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference"
+      },
+      "comment": {
+        "undefined": "One edition of a conference"
+      },
+      "id": "1048",
+      "superClasses": [
+        "1081"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Proceedings",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Proceedings"
+      },
+      "subClasses": [
+        "1038"
+      ],
+      "id": "1049",
+      "superClasses": [
+        "1077"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Late-Registered_Participant",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Late-Registered_Participant"
+      },
+      "id": "1050",
+      "superClasses": [
+        "1080"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Abstract",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Abstract"
+      },
+      "subClasses": [
+        "1086",
+        "1107"
+      ],
+      "id": "1051",
+      "superClasses": [
+        "1091"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Tutorial_Chair",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Tutorial_Chair"
+      },
+      "id": "1052",
+      "superClasses": [
+        "1080",
+        "1093"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Student",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Student"
+      },
+      "id": "1053",
+      "superClasses": [
+        "1036"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Programme_Brochure",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Programme_Brochure"
+      },
+      "id": "1054",
+      "superClasses": [
+        "1091"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Regular_Session",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Regular_Session"
+      },
+      "id": "1055",
+      "superClasses": [
+        "1028"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Negative_Review",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Negative_Review"
+      },
+      "id": "1056",
+      "superClasses": [
+        "1060"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#OC_Chair",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "OC_Chair"
+      },
+      "id": "1057",
+      "superClasses": [
+        "1061"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Regular_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Regular_Paper"
+      },
+      "id": "1058",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Demo_Session",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Demo_Session"
+      },
+      "id": "1059",
+      "superClasses": [
+        "1028"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Review",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Review"
+      },
+      "subClasses": [
+        "1042",
+        "1056",
+        "1065"
+      ],
+      "id": "1060",
+      "superClasses": [
+        "1091"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#OC_Member",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "OC_Member"
+      },
+      "subClasses": [
+        "1057"
+      ],
+      "id": "1061",
+      "superClasses": [
+        "1080"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Research_Institute",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Research_Institute"
+      },
+      "id": "1062",
+      "superClasses": [
+        "1025"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Workshop",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Workshop"
+      },
+      "id": "1063",
+      "superClasses": [
+        "1081"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Assigned_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Assigned_Paper"
+      },
+      "subClasses": [
+        "1074"
+      ],
+      "id": "1064",
+      "superClasses": [
+        "1037"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Positive_Review",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Positive_Review"
+      },
+      "id": "1065",
+      "superClasses": [
+        "1060"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Presenter",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Presenter"
+      },
+      "subClasses": [
+        "1088"
+      ],
+      "id": "1101",
+      "superClasses": [
+        "1080"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Poster_Session",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Poster_Session"
+      },
+      "id": "1067",
+      "superClasses": [
+        "1028"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Industrial_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Industrial_Paper"
+      },
+      "id": "1068",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Workshop_Session",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Workshop_Session"
+      },
+      "id": "1069",
+      "superClasses": [
+        "1028"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Tutorial",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Tutorial"
+      },
+      "id": "1105",
+      "superClasses": [
+        "1075"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Camera_Ready_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Camera_Ready_Paper"
+      },
+      "id": "1071",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Invited_Talk",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Invited_Talk"
+      },
+      "id": "1072",
+      "superClasses": [
+        "1075"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Contributed_Talk",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Contributed_Talk"
+      },
+      "id": "1073",
+      "superClasses": [
+        "1075"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Evaluated_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Evaluated_Paper"
+      },
+      "subClasses": [
+        "1043",
+        "1085"
+      ],
+      "id": "1074",
+      "superClasses": [
+        "1064"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Individual_Presentation",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Individual_Presentation"
+      },
+      "subClasses": [
+        "1072",
+        "1073",
+        "1105"
+      ],
+      "id": "1075",
+      "superClasses": [
+        "1081"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Paper_Author",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Paper_Author"
+      },
+      "id": "1076",
+      "superClasses": [
+        "1036"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Multi-author_Volume",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Multi-author_Volume"
+      },
+      "subClasses": [
+        "1049"
+      ],
+      "id": "1077",
+      "superClasses": [
+        "1091"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Demo_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Demo_Paper"
+      },
+      "id": "1078",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Early-Registered_Participant",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Early-Registered_Participant"
+      },
+      "id": "1079",
+      "superClasses": [
+        "1080"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Conference_Participant",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_Participant"
+      },
+      "subClasses": [
+        "1027",
+        "1033",
+        "1050",
+        "1052",
+        "1061",
+        "1079",
+        "1084",
+        "1092",
+        "1101"
+      ],
+      "id": "1080",
+      "superClasses": [
+        "1036"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Scientific_Event",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Scientific_Event"
+      },
+      "subClasses": [
+        "1028",
+        "1048",
+        "1063",
+        "1075",
+        "1087"
+      ],
+      "id": "1081",
+      "superClasses": [
+        "1083"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Organising_Agency",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Organising_Agency"
+      },
+      "id": "1082",
+      "superClasses": [
+        "1026"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Event",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Event"
+      },
+      "subClasses": [
+        "1044",
+        "1081"
+      ],
+      "id": "1083",
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Demo_Chair",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Demo_Chair"
+      },
+      "id": "1084",
+      "superClasses": [
+        "1080"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Accepted_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Accepted_Paper"
+      },
+      "comment": {
+        "undefined": "Accepted paper to become part of proceedings. \nNote that camera-ready paper is not considered as 'accepted paper', as it was accepted in a different form!"
+      },
+      "id": "1085",
+      "superClasses": [
+        "1074"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Invited_Talk_Abstract",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Invited_Talk_Abstract"
+      },
+      "id": "1086",
+      "superClasses": [
+        "1051"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Track",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Track"
+      },
+      "id": "1087",
+      "superClasses": [
+        "1081"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Invited_Speaker",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Invited_Speaker"
+      },
+      "id": "1088",
+      "superClasses": [
+        "1101"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "1089",
+      "label": {
+        "undefined": "Thing"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "1090",
+      "label": {
+        "undefined": "Thing"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Document",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Document"
+      },
+      "subClasses": [
+        "1032",
+        "1034",
+        "1051",
+        "1054",
+        "1060",
+        "1077",
+        "1106"
+      ],
+      "id": "1091",
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Workshop_Chair",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Workshop_Chair"
+      },
+      "id": "1092",
+      "superClasses": [
+        "1080",
+        "1093"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#PC_Member",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "PC_Member"
+      },
+      "subClasses": [
+        "1023",
+        "1027",
+        "1033",
+        "1052",
+        "1092"
+      ],
+      "id": "1093",
+      "superClasses": [
+        "1029"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1032",
+        "1051"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1094"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1026",
+        "1036"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1095"
+    },
+    {
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "id": "1096",
+      "label": {
+        "undefined": "Thing"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1032",
+        "1051"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1097"
+    },
+    {
+      "iri": "http://ekaw#Research_Topic",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Research_Topic"
+      },
+      "id": "1098",
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1032",
+        "1083"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1099"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1034",
+        "1054"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1100"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1034",
+        "1054",
+        "1077",
+        "1106"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1101"
+    },
+    {
+      "iri": "http://ekaw#Conference_Paper",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Conference_Paper"
+      },
+      "id": "1102",
+      "superClasses": [
+        "1032"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1034",
+        "1054"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1103"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1026",
+        "1036"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1104"
+    },
+    {
+      "instances": 0,
+      "union": [
+        "1032",
+        "1083"
+      ],
+      "attributes": [
+        "union",
+        "anonymous",
+        "external"
+      ],
+      "id": "1105"
+    },
+    {
+      "iri": "http://ekaw#Flyer",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Flyer"
+      },
+      "id": "1106",
+      "superClasses": [
+        "1091"
+      ],
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "iri": "http://ekaw#Tutorial_Abstract",
+      "baseIri": "http://ekaw",
+      "instances": 0,
+      "label": {
+        "IRI-based": "Tutorial_Abstract"
+      },
+      "id": "1107",
+      "superClasses": [
+        "1051"
+      ],
+      "attributes": [
+        "external"
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "0",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "7",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "12",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "17",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "21",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "24",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "28",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "31",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "34",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "41",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "46",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "49",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "56",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "64",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "68",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "69",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "72",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "76",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "81",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "16",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "88",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "90",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "93",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "94",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "99",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "100",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "58",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "106",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "11",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "108",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "87",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "109",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "110",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "116",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "117",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "118",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "120",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "123",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "124",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "125",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "126",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "128",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "129",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "131",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "132",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "133",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "78",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "134",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "135",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "136",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "137",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "138",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "139",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "140",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "107",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "142",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "144",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "145",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "147",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "112",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "150",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "152",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "154",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "23",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "157",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "158",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "159",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "160",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "161",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "162",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "163",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "103",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "37",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "130",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "66",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "164",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "165",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "166",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "167",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "168",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "169",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "170",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "171",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "172",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "173",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "175",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "10",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "15",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "176",
+      "type": "owl:datatypeProperty"
+    },
+    {
+      "id": "177",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "178",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "179",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "180",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "181",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "182",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "183",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "184",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "185",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "186",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "187",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "188",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "189",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "102",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "190",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "191",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "192",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "193",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "194",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "195",
+      "type": "owl:allValuesFrom"
+    },
+    {
+      "id": "57",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "196",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "197",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "198",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "199",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "200",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "201",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "202",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "203",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "204",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "205",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "206",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "207",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "208",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "209",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "210",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "95",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "101",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "211",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "212",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "213",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "214",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "215",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1108",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1109",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1110",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1111",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1112",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1113",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1114",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1115",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1116",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1117",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1118",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1119",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1120",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1121",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1122",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1123",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1124",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1125",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1126",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1127",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1128",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1129",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1130",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1131",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1132",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1133",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1134",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1135",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1136",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1137",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1138",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1139",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1140",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1141",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1142",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1143",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1144",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1145",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1146",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1147",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1148",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1149",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1150",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1151",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1152",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1153",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1154",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1155",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1156",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1157",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1158",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1159",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1160",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1161",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1162",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1163",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1164",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1165",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1166",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1167",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1168",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1169",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1170",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1171",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1172",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1173",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1174",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1175",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1176",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1177",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1178",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1179",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1180",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1181",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1182",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1183",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1184",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1185",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1186",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1187",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1188",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1189",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1190",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1191",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1192",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1193",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1194",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1195",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1196",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1197",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1198",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1199",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1200",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1201",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1202",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1203",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1204",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1205",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1206",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1207",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1208",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1209",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1210",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1211",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1212",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1213",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1214",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1215",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1216",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1217",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1218",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1219",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1220",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1221",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1222",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1223",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1224",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1225",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1226",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1227",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1228",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1229",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1230",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1231",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1232",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1233",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1234",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1235",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1236",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1237",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1238",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1239",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1240",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1241",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1242",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "1243",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1244",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1245",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1246",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1247",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1248",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1249",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1250",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1251",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1252",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1253",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1254",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1255",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1256",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1257",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1258",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1259",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1260",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1261",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1262",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1263",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1264",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "1265",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "1266",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1267",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1268",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1269",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1270",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1271",
+      "type": "rdfs:SubClassOf"
+    },
+    {
+      "id": "1272",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1273",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1274",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1275",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1276",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1277",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1278",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1279",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1280",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1281",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1282",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1283",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1284",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1285",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1286",
+      "type": "owl:objectProperty"
+    },
+    {
+      "id": "1287",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "1288",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1289",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "1290",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "1291",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "1292",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1293",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1294",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1295",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1296",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1297",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1298",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1299",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1300",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1301",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1302",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1303",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1304",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1305",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1306",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1307",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1308",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1309",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1310",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1311",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1312",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1313",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1314",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1315",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1316",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1317",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1318",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1319",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1320",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1321",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1322",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1323",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1324",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1325",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1326",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1327",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1328",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1329",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1330",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "1331",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "iri": "http://conference#has_a_date_of_issue",
+      "baseIri": "http://conference",
+      "range": "2",
+      "label": {
+        "IRI-based": "has_a_date_of_issue"
+      },
+      "domain": "1",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "0"
+    },
+    {
+      "iri": "http://conference#has_a_program_committee",
+      "inverse": "10",
+      "baseIri": "http://conference",
+      "range": "9",
+      "label": {
+        "IRI-based": "has_a_program_committee"
+      },
+      "superproperty": [
+        "11"
+      ],
+      "domain": "8",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "7"
+    },
+    {
+      "iri": "http://conference#has_a_committee_chair",
+      "inverse": "15",
+      "baseIri": "http://conference",
+      "range": "14",
+      "label": {
+        "IRI-based": "has_a_committee_chair"
+      },
+      "superproperty": [
+        "16"
+      ],
+      "domain": "13",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "12"
+    },
+    {
+      "iri": "http://conference#has_a_URL",
+      "baseIri": "http://conference",
+      "range": "19",
+      "label": {
+        "IRI-based": "has_a_URL"
+      },
+      "domain": "18",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "17"
+    },
+    {
+      "iri": "http://conference#was_a_track-workshop_chair_of",
+      "inverse": "23",
+      "baseIri": "http://conference",
+      "range": "4",
+      "label": {
+        "IRI-based": "was_a_track-workshop_chair_of"
+      },
+      "domain": "22",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "21"
+    },
+    {
+      "iri": "http://conference#is_an_ending_date",
+      "baseIri": "http://conference",
+      "range": "25",
+      "label": {
+        "IRI-based": "is_an_ending_date"
+      },
+      "domain": "20",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "24"
+    },
+    {
+      "iri": "http://conference#has_a_review",
+      "baseIri": "http://conference",
+      "range": "29",
+      "label": {
+        "IRI-based": "has_a_review"
+      },
+      "domain": "6",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "28"
+    },
+    {
+      "iri": "http://conference#belongs_to_a_review_reference",
+      "baseIri": "http://conference",
+      "range": "33",
+      "label": {
+        "IRI-based": "belongs_to_a_review_reference"
+      },
+      "domain": "32",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "31"
+    },
+    {
+      "iri": "http://conference#has_a_publisher",
+      "inverse": "37",
+      "baseIri": "http://conference",
+      "range": "36",
+      "label": {
+        "IRI-based": "has_a_publisher"
+      },
+      "domain": "35",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "34"
+    },
+    {
+      "iri": "http://conference#has_an_expertise",
+      "baseIri": "http://conference",
+      "range": "43",
+      "label": {
+        "IRI-based": "has_an_expertise"
+      },
+      "domain": "42",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "41"
+    },
+    {
+      "iri": "http://conference#gives_presentations",
+      "baseIri": "http://conference",
+      "range": "48",
+      "label": {
+        "IRI-based": "gives_presentations"
+      },
+      "domain": "47",
+      "attributes": [
+        "object"
+      ],
+      "id": "46"
+    },
+    {
+      "iri": "http://conference#is_a_full_paper_submission_date",
+      "baseIri": "http://conference",
+      "range": "50",
+      "label": {
+        "IRI-based": "is_a_full_paper_submission_date"
+      },
+      "domain": "20",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "49"
+    },
+    {
+      "iri": "http://conference#was_a_committee_of",
+      "inverse": "11",
+      "baseIri": "http://conference",
+      "range": "8",
+      "label": {
+        "IRI-based": "was_a_committee_of"
+      },
+      "domain": "13",
+      "subproperty": [
+        "57",
+        "10",
+        "58"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "56"
+    },
+    {
+      "iri": "http://conference#has_been_assigned_a_review_reference",
+      "inverse": "66",
+      "baseIri": "http://conference",
+      "range": "33",
+      "label": {
+        "IRI-based": "has_been_assigned_a_review_reference"
+      },
+      "domain": "65",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "64"
+    },
+    {
+      "iri": "http://conference#has_authors",
+      "baseIri": "http://conference",
+      "range": "39",
+      "label": {
+        "IRI-based": "has_authors"
+      },
+      "domain": "1",
+      "attributes": [
+        "object"
+      ],
+      "id": "68"
+    },
+    {
+      "iri": "http://conference#has_gender",
+      "baseIri": "http://conference",
+      "range": "70",
+      "label": {
+        "IRI-based": "has_gender"
+      },
+      "domain": "39",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "69"
+    },
+    {
+      "iri": "http://conference#has_a_volume",
+      "baseIri": "http://conference",
+      "range": "73",
+      "label": {
+        "IRI-based": "has_a_volume"
+      },
+      "domain": "35",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "72"
+    },
+    {
+      "iri": "http://conference#was_a_member_of",
+      "inverse": "16",
+      "baseIri": "http://conference",
+      "range": "13",
+      "label": {
+        "IRI-based": "was_a_member_of"
+      },
+      "domain": "77",
+      "subproperty": [
+        "15",
+        "78"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "76"
+    },
+    {
+      "iri": "http://conference#has_an_abstract",
+      "baseIri": "http://conference",
+      "range": "74",
+      "label": {
+        "IRI-based": "has_an_abstract"
+      },
+      "domain": "82",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "81"
+    },
+    {
+      "iri": "http://conference#has_members",
+      "baseIri": "http://conference",
+      "range": "77",
+      "label": {
+        "IRI-based": "has_members"
+      },
+      "domain": "13",
+      "subproperty": [
+        "12",
+        "87"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "16"
+    },
+    {
+      "iri": "http://conference#is_a_date_of_camera_ready_paper_submission",
+      "baseIri": "http://conference",
+      "range": "89",
+      "label": {
+        "IRI-based": "is_a_date_of_camera_ready_paper_submission"
+      },
+      "domain": "20",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "88"
+    },
+    {
+      "iri": "http://conference#is_an_abstract_submission_date",
+      "baseIri": "http://conference",
+      "range": "91",
+      "label": {
+        "IRI-based": "is_an_abstract_submission_date"
+      },
+      "domain": "20",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "90"
+    },
+    {
+      "iri": "http://conference#has_a_track-workshop-tutorial_topic",
+      "baseIri": "http://conference",
+      "range": "32",
+      "label": {
+        "IRI-based": "has_a_track-workshop-tutorial_topic"
+      },
+      "domain": "4",
+      "attributes": [
+        "object"
+      ],
+      "id": "93"
+    },
+    {
+      "iri": "http://conference#is_submitted_at",
+      "inverse": "95",
+      "baseIri": "http://conference",
+      "range": "8",
+      "label": {
+        "IRI-based": "is_submitted_at"
+      },
+      "domain": "51",
+      "attributes": [
+        "object"
+      ],
+      "id": "94"
+    },
+    {
+      "iri": "http://conference#has_a_steering_committee",
+      "inverse": "58",
+      "baseIri": "http://conference",
+      "range": "96",
+      "label": {
+        "IRI-based": "has_a_steering_committee"
+      },
+      "superproperty": [
+        "11"
+      ],
+      "domain": "8",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "99"
+    },
+    {
+      "iri": "http://conference#has_parts",
+      "baseIri": "http://conference",
+      "range": "4",
+      "label": {
+        "IRI-based": "has_parts"
+      },
+      "domain": "8",
+      "subproperty": [
+        "101",
+        "102",
+        "103"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "100"
+    },
+    {
+      "iri": "http://conference#was_a_steering_committee_of",
+      "baseIri": "http://conference",
+      "range": "8",
+      "label": {
+        "IRI-based": "was_a_steering_committee_of"
+      },
+      "superproperty": [
+        "56"
+      ],
+      "domain": "96",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "58"
+    },
+    {
+      "iri": "http://conference#belong_to_a_conference_volume",
+      "baseIri": "http://conference",
+      "range": "8",
+      "label": {
+        "IRI-based": "belong_to_a_conference_volume"
+      },
+      "domain": "20",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "106"
+    },
+    {
+      "iri": "http://conference#has_a_commtitee",
+      "baseIri": "http://conference",
+      "range": "13",
+      "label": {
+        "IRI-based": "has_a_commtitee"
+      },
+      "domain": "8",
+      "subproperty": [
+        "99",
+        "107",
+        "7"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "11"
+    },
+    {
+      "iri": "http://conference#reviews",
+      "inverse": "28",
+      "baseIri": "http://conference",
+      "range": "6",
+      "label": {
+        "IRI-based": "reviews"
+      },
+      "domain": "29",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "108"
+    },
+    {
+      "iri": "http://conference#has_a_committee_co-chair",
+      "inverse": "78",
+      "baseIri": "http://conference",
+      "range": "97",
+      "label": {
+        "IRI-based": "has_a_committee_co-chair"
+      },
+      "superproperty": [
+        "16"
+      ],
+      "domain": "13",
+      "attributes": [
+        "object"
+      ],
+      "id": "87"
+    },
+    {
+      "iri": "http://conference#contributes",
+      "inverse": "68",
+      "baseIri": "http://conference",
+      "range": "1",
+      "label": {
+        "IRI-based": "contributes"
+      },
+      "domain": "39",
+      "attributes": [
+        "object"
+      ],
+      "id": "109"
+    },
+    {
+      "iri": "http://conference#has_a_review_reference_or_expertise",
+      "inverse": "112",
+      "baseIri": "http://conference",
+      "range": "111",
+      "label": {
+        "IRI-based": "has_a_review_reference_or_expertise"
+      },
+      "domain": "38",
+      "attributes": [
+        "object"
+      ],
+      "id": "110"
+    },
+    {
+      "range": "61",
+      "domain": "52",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "116"
+    },
+    {
+      "iri": "http://conference#is_given_by",
+      "inverse": "46",
+      "baseIri": "http://conference",
+      "range": "47",
+      "label": {
+        "IRI-based": "is_given_by"
+      },
+      "domain": "48",
+      "attributes": [
+        "object"
+      ],
+      "id": "117"
+    },
+    {
+      "range": "67",
+      "domain": "9",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "118"
+    },
+    {
+      "iri": "http://conference#has_a_name",
+      "baseIri": "http://conference",
+      "range": "122",
+      "label": {
+        "IRI-based": "has_a_name"
+      },
+      "domain": "121",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "120"
+    },
+    {
+      "range": "9",
+      "domain": "96",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "123"
+    },
+    {
+      "range": "67",
+      "domain": "96",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "124"
+    },
+    {
+      "iri": "http://conference#was_a_committe_co-chair_of",
+      "baseIri": "http://conference",
+      "range": "13",
+      "label": {
+        "IRI-based": "was_a_committe_co-chair_of"
+      },
+      "superproperty": [
+        "76"
+      ],
+      "domain": "97",
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "id": "125"
+    },
+    {
+      "range": "3",
+      "domain": "71",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "126"
+    },
+    {
+      "iri": "http://conference#is_part_of_conference_volumes",
+      "inverse": "100",
+      "baseIri": "http://conference",
+      "range": "8",
+      "label": {
+        "IRI-based": "is_part_of_conference_volumes"
+      },
+      "domain": "4",
+      "attributes": [
+        "object"
+      ],
+      "id": "128"
+    },
+    {
+      "iri": "http://conference#has_a_submitted_contribution",
+      "inverse": "130",
+      "baseIri": "http://conference",
+      "range": "60",
+      "label": {
+        "IRI-based": "has_a_submitted_contribution"
+      },
+      "domain": "42",
+      "attributes": [
+        "functional",
+        "object",
+        "someValues"
+      ],
+      "id": "129"
+    },
+    {
+      "range": "62",
+      "domain": "61",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "131"
+    },
+    {
+      "range": "62",
+      "domain": "52",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "132"
+    },
+    {
+      "range": "26",
+      "domain": "127",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "133"
+    },
+    {
+      "iri": "http://conference#was_a_committe_co-chair_of",
+      "baseIri": "http://conference",
+      "range": "13",
+      "label": {
+        "IRI-based": "was_a_committe_co-chair_of"
+      },
+      "superproperty": [
+        "76"
+      ],
+      "domain": "97",
+      "attributes": [
+        "object"
+      ],
+      "id": "78"
+    },
+    {
+      "iri": "http://conference#belongs_to_reviewers",
+      "baseIri": "http://conference",
+      "range": "38",
+      "label": {
+        "IRI-based": "belongs_to_reviewers"
+      },
+      "domain": "42",
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "id": "134"
+    },
+    {
+      "iri": "http://conference#was_a_member_of",
+      "inverse": "16",
+      "baseIri": "http://conference",
+      "range": "13",
+      "label": {
+        "IRI-based": "was_a_member_of"
+      },
+      "domain": "77",
+      "subproperty": [
+        "15",
+        "78"
+      ],
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "id": "135"
+    },
+    {
+      "range": "27",
+      "domain": "26",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "136"
+    },
+    {
+      "range": "80",
+      "domain": "79",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "137"
+    },
+    {
+      "iri": "http://conference#is_the_1th_part_of",
+      "inverse": "81",
+      "baseIri": "http://conference",
+      "range": "115",
+      "label": {
+        "IRI-based": "is_the_1th_part_of"
+      },
+      "domain": "74",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "138"
+    },
+    {
+      "range": "80",
+      "domain": "47",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "139"
+    },
+    {
+      "iri": "http://conference#is_a_date_of_acceptance_announcement",
+      "baseIri": "http://conference",
+      "range": "141",
+      "label": {
+        "IRI-based": "is_a_date_of_acceptance_announcement"
+      },
+      "domain": "20",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "140"
+    },
+    {
+      "iri": "http://conference#has_an_organizing_committee",
+      "inverse": "57",
+      "baseIri": "http://conference",
+      "range": "67",
+      "label": {
+        "IRI-based": "has_an_organizing_committee"
+      },
+      "superproperty": [
+        "11"
+      ],
+      "domain": "8",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "107"
+    },
+    {
+      "iri": "http://conference#has_an_email",
+      "baseIri": "http://conference",
+      "range": "143",
+      "label": {
+        "IRI-based": "has_an_email"
+      },
+      "domain": "39",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "142"
+    },
+    {
+      "range": "61",
+      "domain": "75",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "144"
+    },
+    {
+      "range": "27",
+      "domain": "127",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "145"
+    },
+    {
+      "range": "61",
+      "domain": "113",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "147"
+    },
+    {
+      "iri": "http://conference#belongs_to_reviewers",
+      "baseIri": "http://conference",
+      "range": "38",
+      "label": {
+        "IRI-based": "belongs_to_reviewers"
+      },
+      "domain": "119",
+      "attributes": [
+        "object"
+      ],
+      "id": "112"
+    },
+    {
+      "iri": "http://conference#has_the_last_name",
+      "baseIri": "http://conference",
+      "range": "151",
+      "label": {
+        "IRI-based": "has_the_last_name"
+      },
+      "domain": "39",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "150"
+    },
+    {
+      "iri": "http://conference#has_a_location",
+      "baseIri": "http://conference",
+      "range": "153",
+      "label": {
+        "IRI-based": "has_a_location"
+      },
+      "domain": "8",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "152"
+    },
+    {
+      "iri": "http://conference#has_an_ISBN",
+      "baseIri": "http://conference",
+      "range": "148",
+      "label": {
+        "IRI-based": "has_an_ISBN"
+      },
+      "domain": "35",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "154"
+    },
+    {
+      "iri": "http://conference#has_a_track-workshop-tutorial_chair",
+      "baseIri": "http://conference",
+      "range": "22",
+      "label": {
+        "IRI-based": "has_a_track-workshop-tutorial_chair"
+      },
+      "domain": "4",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "23"
+    },
+    {
+      "iri": "http://conference#has_a_degree",
+      "baseIri": "http://conference",
+      "range": "156",
+      "label": {
+        "IRI-based": "has_a_degree"
+      },
+      "domain": "33",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "157"
+    },
+    {
+      "range": "51",
+      "domain": "48",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "158"
+    },
+    {
+      "range": "1",
+      "domain": "51",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "159"
+    },
+    {
+      "iri": "http://conference#has_a_submitted_contribution",
+      "inverse": "130",
+      "baseIri": "http://conference",
+      "range": "60",
+      "label": {
+        "IRI-based": "has_a_submitted_contribution"
+      },
+      "domain": "42",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "160"
+    },
+    {
+      "range": "51",
+      "domain": "62",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "161"
+    },
+    {
+      "range": "51",
+      "domain": "59",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "162"
+    },
+    {
+      "range": "1",
+      "domain": "85",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "163"
+    },
+    {
+      "iri": "http://conference#has_tracks",
+      "baseIri": "http://conference",
+      "range": "86",
+      "label": {
+        "IRI-based": "has_tracks"
+      },
+      "superproperty": [
+        "100"
+      ],
+      "domain": "8",
+      "attributes": [
+        "object"
+      ],
+      "id": "103"
+    },
+    {
+      "iri": "http://conference#issues",
+      "baseIri": "http://conference",
+      "range": "35",
+      "label": {
+        "IRI-based": "issues"
+      },
+      "domain": "36",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "37"
+    },
+    {
+      "iri": "http://conference#has_a_review_expertise",
+      "baseIri": "http://conference",
+      "range": "42",
+      "label": {
+        "IRI-based": "has_a_review_expertise"
+      },
+      "domain": "60",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "130"
+    },
+    {
+      "iri": "http://conference#has_a_topic_or_a_submission_contribution",
+      "baseIri": "http://conference",
+      "range": "114",
+      "label": {
+        "IRI-based": "has_a_topic_or_a_submission_contribution"
+      },
+      "domain": "33",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "66"
+    },
+    {
+      "range": "1",
+      "domain": "84",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "164"
+    },
+    {
+      "range": "1",
+      "domain": "29",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "165"
+    },
+    {
+      "range": "1",
+      "domain": "18",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "166"
+    },
+    {
+      "range": "54",
+      "domain": "146",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "167"
+    },
+    {
+      "range": "1",
+      "domain": "83",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "168"
+    },
+    {
+      "range": "1",
+      "domain": "30",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "169"
+    },
+    {
+      "range": "59",
+      "domain": "61",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "170"
+    },
+    {
+      "range": "59",
+      "domain": "60",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "171"
+    },
+    {
+      "iri": "http://conference#is_a_starting_date",
+      "baseIri": "http://conference",
+      "range": "155",
+      "label": {
+        "IRI-based": "is_a_starting_date"
+      },
+      "domain": "20",
+      "attributes": [
+        "datatype",
+        "functional"
+      ],
+      "id": "172"
+    },
+    {
+      "range": "54",
+      "domain": "174",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "173"
+    },
+    {
+      "range": "63",
+      "domain": "8",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "175"
+    },
+    {
+      "iri": "http://conference#was_a_program_committee_of",
+      "baseIri": "http://conference",
+      "range": "8",
+      "label": {
+        "IRI-based": "was_a_program_committee_of"
+      },
+      "superproperty": [
+        "56"
+      ],
+      "domain": "9",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "10"
+    },
+    {
+      "iri": "http://conference#was_a_committee_chair_of",
+      "baseIri": "http://conference",
+      "range": "13",
+      "label": {
+        "IRI-based": "was_a_committee_chair_of"
+      },
+      "superproperty": [
+        "76"
+      ],
+      "domain": "14",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "15"
+    },
+    {
+      "iri": "http://conference#has_the_first_name",
+      "baseIri": "http://conference",
+      "range": "149",
+      "label": {
+        "IRI-based": "has_the_first_name"
+      },
+      "domain": "39",
+      "attributes": [
+        "datatype"
+      ],
+      "id": "176"
+    },
+    {
+      "iri": "http://conference#is_a_topis_of_conference_parts",
+      "inverse": "93",
+      "baseIri": "http://conference",
+      "range": "4",
+      "label": {
+        "IRI-based": "is_a_topis_of_conference_parts"
+      },
+      "domain": "32",
+      "attributes": [
+        "object"
+      ],
+      "id": "177"
+    },
+    {
+      "range": "53",
+      "domain": "54",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "178"
+    },
+    {
+      "range": "53",
+      "domain": "47",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "179"
+    },
+    {
+      "range": "53",
+      "domain": "55",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "180"
+    },
+    {
+      "range": "44",
+      "domain": "45",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "181"
+    },
+    {
+      "range": "75",
+      "domain": "74",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "182"
+    },
+    {
+      "range": "48",
+      "domain": "52",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "183"
+    },
+    {
+      "range": "60",
+      "domain": "6",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "184"
+    },
+    {
+      "range": "77",
+      "domain": "14",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "185"
+    },
+    {
+      "range": "105",
+      "domain": "104",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "186"
+    },
+    {
+      "range": "104",
+      "domain": "27",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "187"
+    },
+    {
+      "range": "113",
+      "domain": "75",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "188"
+    },
+    {
+      "range": "5",
+      "domain": "44",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "189"
+    },
+    {
+      "iri": "http://conference#has_tutorials",
+      "baseIri": "http://conference",
+      "range": "71",
+      "label": {
+        "IRI-based": "has_tutorials"
+      },
+      "superproperty": [
+        "100"
+      ],
+      "domain": "8",
+      "attributes": [
+        "object"
+      ],
+      "id": "102"
+    },
+    {
+      "range": "86",
+      "domain": "71",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "190"
+    },
+    {
+      "range": "86",
+      "domain": "3",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "191"
+    },
+    {
+      "iri": "http://conference#belongs_to_reviewers",
+      "baseIri": "http://conference",
+      "range": "38",
+      "label": {
+        "IRI-based": "belongs_to_reviewers"
+      },
+      "domain": "33",
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "id": "192"
+    },
+    {
+      "iri": "http://conference#contributes",
+      "inverse": "68",
+      "baseIri": "http://conference",
+      "range": "52",
+      "label": {
+        "IRI-based": "contributes"
+      },
+      "domain": "55",
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "id": "193"
+    },
+    {
+      "iri": "http://conference#was_a_committee_chair_of",
+      "baseIri": "http://conference",
+      "range": "13",
+      "label": {
+        "IRI-based": "was_a_committee_chair_of"
+      },
+      "superproperty": [
+        "76"
+      ],
+      "domain": "14",
+      "attributes": [
+        "object",
+        "someValues",
+        "inverse functional"
+      ],
+      "id": "194"
+    },
+    {
+      "iri": "http://conference#has_authors",
+      "baseIri": "http://conference",
+      "range": "38",
+      "label": {
+        "IRI-based": "has_authors"
+      },
+      "domain": "29",
+      "attributes": [
+        "object",
+        "allValues"
+      ],
+      "id": "195"
+    },
+    {
+      "iri": "http://conference#was_an_organizing_committee_of",
+      "baseIri": "http://conference",
+      "range": "8",
+      "label": {
+        "IRI-based": "was_an_organizing_committee_of"
+      },
+      "superproperty": [
+        "56"
+      ],
+      "domain": "67",
+      "attributes": [
+        "object",
+        "inverse functional"
+      ],
+      "id": "57"
+    },
+    {
+      "iri": "http://conference#has_important_dates",
+      "inverse": "106",
+      "baseIri": "http://conference",
+      "range": "20",
+      "label": {
+        "IRI-based": "has_important_dates"
+      },
+      "domain": "8",
+      "attributes": [
+        "functional",
+        "object"
+      ],
+      "id": "196"
+    },
+    {
+      "range": "146",
+      "domain": "174",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "197"
+    },
+    {
+      "range": "47",
+      "domain": "79",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "198"
+    },
+    {
+      "range": "13",
+      "domain": "9",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "199"
+    },
+    {
+      "range": "13",
+      "domain": "96",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "200"
+    },
+    {
+      "range": "77",
+      "domain": "97",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "201"
+    },
+    {
+      "range": "13",
+      "domain": "67",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "202"
+    },
+    {
+      "range": "4",
+      "domain": "86",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "203"
+    },
+    {
+      "range": "4",
+      "domain": "3",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "204"
+    },
+    {
+      "range": "6",
+      "domain": "5",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "205"
+    },
+    {
+      "range": "6",
+      "domain": "44",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "206"
+    },
+    {
+      "range": "4",
+      "domain": "71",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "207"
+    },
+    {
+      "range": "39",
+      "domain": "77",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "208"
+    },
+    {
+      "iri": "http://conference#invited_by",
+      "inverse": "210",
+      "baseIri": "http://conference",
+      "range": "38",
+      "label": {
+        "IRI-based": "invited_by"
+      },
+      "domain": "38",
+      "attributes": [
+        "object"
+      ],
+      "id": "209"
+    },
+    {
+      "iri": "http://conference#invites_co-reviewers",
+      "baseIri": "http://conference",
+      "range": "38",
+      "label": {
+        "IRI-based": "invites_co-reviewers"
+      },
+      "domain": "38",
+      "attributes": [
+        "object"
+      ],
+      "id": "210"
+    },
+    {
+      "iri": "http://conference#has_contributions",
+      "baseIri": "http://conference",
+      "range": "51",
+      "label": {
+        "IRI-based": "has_contributions"
+      },
+      "domain": "8",
+      "attributes": [
+        "object"
+      ],
+      "id": "95"
+    },
+    {
+      "iri": "http://conference#has_workshops",
+      "baseIri": "http://conference",
+      "range": "3",
+      "label": {
+        "IRI-based": "has_workshops"
+      },
+      "superproperty": [
+        "100"
+      ],
+      "domain": "8",
+      "attributes": [
+        "object"
+      ],
+      "id": "101"
+    },
+    {
+      "range": "39",
+      "domain": "105",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "211"
+    },
+    {
+      "range": "39",
+      "domain": "53",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "212"
+    },
+    {
+      "range": "39",
+      "domain": "22",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "213"
+    },
+    {
+      "range": "39",
+      "domain": "38",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "214"
+    },
+    {
+      "range": "39",
+      "domain": "80",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "id": "215"
+    },
+    {
+      "range": "1036",
+      "domain": "1029",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1108"
+    },
+    {
+      "range": "1036",
+      "domain": "1076",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1109"
+    },
+    {
+      "range": "1036",
+      "domain": "1080",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1110"
+    },
+    {
+      "range": "1036",
+      "domain": "1053",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1111"
+    },
+    {
+      "range": "1036",
+      "domain": "1047",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1112"
+    },
+    {
+      "range": "1037",
+      "domain": "1064",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1113"
+    },
+    {
+      "range": "1044",
+      "domain": "1031",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1114"
+    },
+    {
+      "range": "1044",
+      "domain": "1046",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1115"
+    },
+    {
+      "iri": "http://ekaw#writtenBy",
+      "inverse": "1250",
+      "baseIri": "http://ekaw",
+      "range": "1036",
+      "label": {
+        "IRI-based": "writtenBy"
+      },
+      "domain": "1091",
+      "subproperty": [
+        "1218"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "1116"
+    },
+    {
+      "iri": "http://ekaw#volumeContainsPaper",
+      "inverse": "1217",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "volumeContainsPaper"
+      },
+      "minCardinality": "1",
+      "domain": "1096",
+      "attributes": [
+        "object"
+      ],
+      "id": "1117"
+    },
+    {
+      "range": "1032",
+      "domain": "1071",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1118"
+    },
+    {
+      "range": "1032",
+      "domain": "1078",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1119"
+    },
+    {
+      "range": "1028",
+      "domain": "1055",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1120"
+    },
+    {
+      "range": "1028",
+      "domain": "1024",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1121"
+    },
+    {
+      "range": "1029",
+      "domain": "1093",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1122"
+    },
+    {
+      "range": "1032",
+      "domain": "1037",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1123"
+    },
+    {
+      "range": "1032",
+      "domain": "1039",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1124"
+    },
+    {
+      "range": "1032",
+      "domain": "1102",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1125"
+    },
+    {
+      "range": "1032",
+      "domain": "1058",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1126"
+    },
+    {
+      "range": "1032",
+      "domain": "1068",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1127"
+    },
+    {
+      "range": "1032",
+      "domain": "1045",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1128"
+    },
+    {
+      "iri": "http://ekaw#hasReviewer",
+      "baseIri": "http://ekaw",
+      "range": "1029",
+      "label": {
+        "IRI-based": "hasReviewer"
+      },
+      "minCardinality": "3",
+      "domain": "1032",
+      "attributes": [
+        "object"
+      ],
+      "id": "1129"
+    },
+    {
+      "range": "1028",
+      "domain": "1067",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1130"
+    },
+    {
+      "range": "1026",
+      "domain": "1025",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1131"
+    },
+    {
+      "range": "1028",
+      "domain": "1069",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1132"
+    },
+    {
+      "range": "1028",
+      "domain": "1059",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1133"
+    },
+    {
+      "iri": "http://ekaw#topicCoveredBy",
+      "inverse": "1286",
+      "baseIri": "http://ekaw",
+      "range": "1099",
+      "label": {
+        "IRI-based": "topicCoveredBy"
+      },
+      "domain": "1098",
+      "attributes": [
+        "object"
+      ],
+      "id": "1134"
+    },
+    {
+      "iri": "http://ekaw#scientificallyOrganisedBy",
+      "inverse": "1184",
+      "baseIri": "http://ekaw",
+      "range": "1025",
+      "label": {
+        "IRI-based": "scientificallyOrganisedBy"
+      },
+      "superproperty": [
+        "1173"
+      ],
+      "domain": "1090",
+      "attributes": [
+        "object"
+      ],
+      "id": "1135"
+    },
+    {
+      "iri": "http://ekaw#partOf",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "partOf"
+      },
+      "domain": "1096",
+      "subproperty": [
+        "1162"
+      ],
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "id": "1136"
+    },
+    {
+      "range": "1091",
+      "domain": "1034",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1137"
+    },
+    {
+      "range": "1091",
+      "domain": "1054",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1138"
+    },
+    {
+      "range": "1093",
+      "domain": "1052",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1139"
+    },
+    {
+      "range": "1093",
+      "domain": "1027",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1140"
+    },
+    {
+      "iri": "http://ekaw#technicallyOrganises",
+      "inverse": "1215",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "technicallyOrganises"
+      },
+      "superproperty": [
+        "1167"
+      ],
+      "domain": "1026",
+      "attributes": [
+        "object"
+      ],
+      "id": "1141"
+    },
+    {
+      "range": "1083",
+      "domain": "1081",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1142"
+    },
+    {
+      "range": "1091",
+      "domain": "1051",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1143"
+    },
+    {
+      "range": "1091",
+      "domain": "1077",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1144"
+    },
+    {
+      "range": "1091",
+      "domain": "1032",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1145"
+    },
+    {
+      "range": "1091",
+      "domain": "1106",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1146"
+    },
+    {
+      "range": "1091",
+      "domain": "1060",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1147"
+    },
+    {
+      "range": "1081",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1148"
+    },
+    {
+      "range": "1081",
+      "domain": "1063",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1149"
+    },
+    {
+      "range": "1081",
+      "domain": "1087",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1150"
+    },
+    {
+      "range": "1081",
+      "domain": "1075",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1151"
+    },
+    {
+      "range": "1083",
+      "domain": "1044",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1152"
+    },
+    {
+      "iri": "http://ekaw#eventOnList",
+      "inverse": "1229",
+      "baseIri": "http://ekaw",
+      "range": "1100",
+      "label": {
+        "IRI-based": "eventOnList"
+      },
+      "domain": "1083",
+      "attributes": [
+        "object"
+      ],
+      "id": "1153"
+    },
+    {
+      "iri": "http://ekaw#hasEvent",
+      "inverse": "1162",
+      "baseIri": "http://ekaw",
+      "range": "1083",
+      "label": {
+        "IRI-based": "hasEvent"
+      },
+      "superproperty": [
+        "1182"
+      ],
+      "domain": "1083",
+      "attributes": [
+        "object"
+      ],
+      "id": "1154"
+    },
+    {
+      "range": "1080",
+      "domain": "1084",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1155"
+    },
+    {
+      "range": "1080",
+      "domain": "1061",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1156"
+    },
+    {
+      "iri": "http://ekaw#referencedIn",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "referencedIn"
+      },
+      "domain": "1096",
+      "attributes": [
+        "object"
+      ],
+      "id": "1157"
+    },
+    {
+      "range": "1080",
+      "domain": "1101",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1158"
+    },
+    {
+      "range": "1080",
+      "domain": "1033",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1159"
+    },
+    {
+      "range": "1081",
+      "domain": "1028",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1160"
+    },
+    {
+      "range": "1077",
+      "domain": "1049",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1161"
+    },
+    {
+      "iri": "http://ekaw#partOfEvent",
+      "baseIri": "http://ekaw",
+      "range": "1083",
+      "label": {
+        "IRI-based": "partOfEvent"
+      },
+      "superproperty": [
+        "1136"
+      ],
+      "domain": "1083",
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "id": "1162"
+    },
+    {
+      "range": "1080",
+      "domain": "1052",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1163"
+    },
+    {
+      "range": "1080",
+      "domain": "1027",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1164"
+    },
+    {
+      "range": "1080",
+      "domain": "1050",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1165"
+    },
+    {
+      "range": "1080",
+      "domain": "1079",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1166"
+    },
+    {
+      "iri": "http://ekaw#organises",
+      "inverse": "1173",
+      "baseIri": "http://ekaw",
+      "range": "1083",
+      "label": {
+        "IRI-based": "organises"
+      },
+      "domain": "1095",
+      "subproperty": [
+        "1141",
+        "1184"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "1167"
+    },
+    {
+      "range": "1080",
+      "domain": "1092",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1168"
+    },
+    {
+      "iri": "http://ekaw#paperPresentedAs",
+      "baseIri": "http://ekaw",
+      "range": "1075",
+      "label": {
+        "IRI-based": "paperPresentedAs"
+      },
+      "domain": "1097",
+      "attributes": [
+        "object"
+      ],
+      "id": "1169"
+    },
+    {
+      "range": "1074",
+      "domain": "1085",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1170"
+    },
+    {
+      "range": "1075",
+      "domain": "1105",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1171"
+    },
+    {
+      "range": "1075",
+      "domain": "1073",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1172"
+    },
+    {
+      "iri": "http://ekaw#organisedBy",
+      "baseIri": "http://ekaw",
+      "range": "1104",
+      "label": {
+        "IRI-based": "organisedBy"
+      },
+      "domain": "1083",
+      "subproperty": [
+        "1135",
+        "1215"
+      ],
+      "attributes": [
+        "object"
+      ],
+      "id": "1173"
+    },
+    {
+      "range": "1075",
+      "domain": "1072",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1174"
+    },
+    {
+      "range": "1060",
+      "domain": "1042",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1175"
+    },
+    {
+      "range": "1060",
+      "domain": "1056",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1176"
+    },
+    {
+      "range": "1060",
+      "domain": "1065",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1177"
+    },
+    {
+      "range": "1061",
+      "domain": "1057",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1178"
+    },
+    {
+      "range": "1064",
+      "domain": "1074",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1179"
+    },
+    {
+      "range": "1101",
+      "domain": "1088",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1180"
+    },
+    {
+      "range": "1074",
+      "domain": "1043",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1181"
+    },
+    {
+      "iri": "http://ekaw#hasPart",
+      "inverse": "1136",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "hasPart"
+      },
+      "domain": "1096",
+      "subproperty": [
+        "1154",
+        "1183"
+      ],
+      "attributes": [
+        "object",
+        "transitive"
+      ],
+      "id": "1182"
+    },
+    {
+      "iri": "http://ekaw#inverse_of_partOf_7",
+      "baseIri": "http://ekaw",
+      "range": "1083",
+      "label": {
+        "IRI-based": "inverse_of_partOf_7"
+      },
+      "superproperty": [
+        "1182"
+      ],
+      "domain": "1089",
+      "attributes": [
+        "object"
+      ],
+      "id": "1183"
+    },
+    {
+      "iri": "http://ekaw#scientificallyOrganises",
+      "baseIri": "http://ekaw",
+      "range": "1090",
+      "label": {
+        "IRI-based": "scientificallyOrganises"
+      },
+      "superproperty": [
+        "1167"
+      ],
+      "domain": "1025",
+      "attributes": [
+        "object"
+      ],
+      "id": "1184"
+    },
+    {
+      "iri": "http://ekaw#updatedVersionOf",
+      "baseIri": "http://ekaw",
+      "range": "1091",
+      "label": {
+        "IRI-based": "updatedVersionOf"
+      },
+      "domain": "1091",
+      "attributes": [
+        "object"
+      ],
+      "id": "1185"
+    },
+    {
+      "range": "1049",
+      "domain": "1038",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1186"
+    },
+    {
+      "range": "1051",
+      "domain": "1086",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1187"
+    },
+    {
+      "range": "1051",
+      "domain": "1107",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1188"
+    },
+    {
+      "range": "1078",
+      "domain": "1068",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1189"
+    },
+    {
+      "range": "1024",
+      "domain": "1069",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1190"
+    },
+    {
+      "range": "1059",
+      "domain": "1067",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1191"
+    },
+    {
+      "range": "1083",
+      "domain": "1036",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1192"
+    },
+    {
+      "range": "1091",
+      "domain": "1036",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1193"
+    },
+    {
+      "range": "1030",
+      "domain": "1036",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1194"
+    },
+    {
+      "range": "1036",
+      "domain": "1026",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1195"
+    },
+    {
+      "range": "1028",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1196"
+    },
+    {
+      "range": "1044",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1197"
+    },
+    {
+      "range": "1072",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1198"
+    },
+    {
+      "range": "1087",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1199"
+    },
+    {
+      "iri": "http://ekaw#references",
+      "inverse": "1157",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "references"
+      },
+      "domain": "1096",
+      "attributes": [
+        "object"
+      ],
+      "id": "1200"
+    },
+    {
+      "range": "1063",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1201"
+    },
+    {
+      "range": "1055",
+      "domain": "1059",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1202"
+    },
+    {
+      "range": "1073",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1203"
+    },
+    {
+      "range": "1045",
+      "domain": "1102",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1204"
+    },
+    {
+      "range": "1028",
+      "domain": "1105",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1205"
+    },
+    {
+      "range": "1055",
+      "domain": "1067",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1206"
+    },
+    {
+      "range": "1045",
+      "domain": "1068",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1207"
+    },
+    {
+      "range": "1105",
+      "domain": "1063",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1208"
+    },
+    {
+      "range": "1105",
+      "domain": "1044",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1209"
+    },
+    {
+      "range": "1105",
+      "domain": "1073",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1210"
+    },
+    {
+      "range": "1072",
+      "domain": "1087",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1211"
+    },
+    {
+      "range": "1072",
+      "domain": "1044",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1212"
+    },
+    {
+      "range": "1072",
+      "domain": "1073",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1213"
+    },
+    {
+      "iri": "http://ekaw#presentationOfPaper",
+      "inverse": "1169",
+      "baseIri": "http://ekaw",
+      "range": "1094",
+      "label": {
+        "IRI-based": "presentationOfPaper"
+      },
+      "cardinality": "1",
+      "domain": "1075",
+      "attributes": [
+        "object"
+      ],
+      "id": "1214"
+    },
+    {
+      "iri": "http://ekaw#technicallyOrganisedBy",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "technicallyOrganisedBy"
+      },
+      "superproperty": [
+        "1173"
+      ],
+      "domain": "1096",
+      "attributes": [
+        "object"
+      ],
+      "id": "1215"
+    },
+    {
+      "range": "1054",
+      "domain": "1106",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1216"
+    },
+    {
+      "iri": "http://ekaw#paperInVolume",
+      "baseIri": "http://ekaw",
+      "range": "1096",
+      "label": {
+        "IRI-based": "paperInVolume"
+      },
+      "domain": "1096",
+      "attributes": [
+        "object"
+      ],
+      "id": "1217"
+    },
+    {
+      "iri": "http://ekaw#reviewWrittenBy",
+      "baseIri": "http://ekaw",
+      "range": "1029",
+      "label": {
+        "IRI-based": "reviewWrittenBy"
+      },
+      "superproperty": [
+        "1116"
+      ],
+      "domain": "1060",
+      "attributes": [
+        "object"
+      ],
+      "id": "1218"
+    },
+    {
+      "range": "1077",
+      "domain": "1106",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1219"
+    },
+    {
+      "range": "1072",
+      "domain": "1028",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1220"
+    },
+    {
+      "range": "1072",
+      "domain": "1063",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1221"
+    },
+    {
+      "range": "1065",
+      "domain": "1042",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1222"
+    },
+    {
+      "range": "1042",
+      "domain": "1056",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1223"
+    },
+    {
+      "range": "1106",
+      "domain": "1032",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1224"
+    },
+    {
+      "range": "1106",
+      "domain": "1060",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1225"
+    },
+    {
+      "range": "1065",
+      "domain": "1056",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1226"
+    },
+    {
+      "range": "1092",
+      "domain": "1027",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1227"
+    },
+    {
+      "iri": "http://ekaw#reviewOfPaper",
+      "baseIri": "http://ekaw",
+      "range": "1032",
+      "label": {
+        "IRI-based": "reviewOfPaper"
+      },
+      "domain": "1060",
+      "attributes": [
+        "object"
+      ],
+      "id": "1228"
+    },
+    {
+      "iri": "http://ekaw#listsEvent",
+      "baseIri": "http://ekaw",
+      "range": "1083",
+      "label": {
+        "IRI-based": "listsEvent"
+      },
+      "domain": "1103",
+      "attributes": [
+        "object"
+      ],
+      "id": "1229"
+    },
+    {
+      "range": "1050",
+      "domain": "1079",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1230"
+    },
+    {
+      "range": "1049",
+      "domain": "1032",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1231"
+    },
+    {
+      "range": "1054",
+      "domain": "1049",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1232"
+    },
+    {
+      "range": "1093",
+      "domain": "1023",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1233"
+    },
+    {
+      "range": "1085",
+      "domain": "1043",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1234"
+    },
+    {
+      "range": "1093",
+      "domain": "1092",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1235"
+    },
+    {
+      "range": "1106",
+      "domain": "1049",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1236"
+    },
+    {
+      "range": "1093",
+      "domain": "1033",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1237"
+    },
+    {
+      "range": "1068",
+      "domain": "1058",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1238"
+    },
+    {
+      "range": "1039",
+      "domain": "1068",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1239"
+    },
+    {
+      "range": "1060",
+      "domain": "1049",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1240"
+    },
+    {
+      "range": "1071",
+      "domain": "1074",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1241"
+    },
+    {
+      "iri": "http://ekaw#presentationOfPaper",
+      "inverse": "1169",
+      "baseIri": "http://ekaw",
+      "range": "1071",
+      "label": {
+        "IRI-based": "presentationOfPaper"
+      },
+      "domain": "1073",
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "id": "1242"
+    },
+    {
+      "range": "1082",
+      "domain": "1025",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1243"
+    },
+    {
+      "range": "1028",
+      "domain": "1073",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1244"
+    },
+    {
+      "range": "1073",
+      "domain": "1044",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1245"
+    },
+    {
+      "iri": "http://ekaw#hasReview",
+      "inverse": "1228",
+      "baseIri": "http://ekaw",
+      "range": "1060",
+      "label": {
+        "IRI-based": "hasReview"
+      },
+      "minCardinality": "3",
+      "domain": "1032",
+      "attributes": [
+        "object"
+      ],
+      "id": "1246"
+    },
+    {
+      "range": "1077",
+      "domain": "1060",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1247"
+    },
+    {
+      "range": "1087",
+      "domain": "1063",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1248"
+    },
+    {
+      "range": "1087",
+      "domain": "1044",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1249"
+    },
+    {
+      "iri": "http://ekaw#authorOf",
+      "baseIri": "http://ekaw",
+      "range": "1091",
+      "label": {
+        "IRI-based": "authorOf"
+      },
+      "domain": "1036",
+      "attributes": [
+        "object"
+      ],
+      "id": "1250"
+    },
+    {
+      "range": "1060",
+      "domain": "1032",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1251"
+    },
+    {
+      "range": "1077",
+      "domain": "1032",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1252"
+    },
+    {
+      "range": "1028",
+      "domain": "1087",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1253"
+    },
+    {
+      "range": "1087",
+      "domain": "1073",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1254"
+    },
+    {
+      "range": "1054",
+      "domain": "1077",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1255"
+    },
+    {
+      "range": "1054",
+      "domain": "1060",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1256"
+    },
+    {
+      "range": "1078",
+      "domain": "1058",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1257"
+    },
+    {
+      "range": "1054",
+      "domain": "1032",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1258"
+    },
+    {
+      "iri": "http://ekaw#reviewerOfPaper",
+      "inverse": "1129",
+      "baseIri": "http://ekaw",
+      "range": "1032",
+      "label": {
+        "IRI-based": "reviewerOfPaper"
+      },
+      "domain": "1029",
+      "attributes": [
+        "object"
+      ],
+      "id": "1259"
+    },
+    {
+      "range": "1039",
+      "domain": "1058",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1260"
+    },
+    {
+      "range": "1075",
+      "domain": "1063",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1261"
+    },
+    {
+      "range": "1078",
+      "domain": "1039",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1262"
+    },
+    {
+      "range": "1071",
+      "domain": "1085",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1263"
+    },
+    {
+      "iri": "http://ekaw#updatedVersionOf",
+      "baseIri": "http://ekaw",
+      "range": "1085",
+      "label": {
+        "IRI-based": "updatedVersionOf"
+      },
+      "domain": "1071",
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "id": "1264"
+    },
+    {
+      "iri": "http://ekaw#writtenBy",
+      "inverse": "1250",
+      "baseIri": "http://ekaw",
+      "range": "1080",
+      "label": {
+        "IRI-based": "writtenBy"
+      },
+      "domain": "1071",
+      "subproperty": [
+        "1218"
+      ],
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "id": "1265"
+    },
+    {
+      "range": "1071",
+      "domain": "1037",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1266"
+    },
+    {
+      "range": "1025",
+      "domain": "1062",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1267"
+    },
+    {
+      "range": "1025",
+      "domain": "1040",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1268"
+    },
+    {
+      "range": "1026",
+      "domain": "1082",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1269"
+    },
+    {
+      "range": "1026",
+      "domain": "1035",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1270"
+    },
+    {
+      "range": "1024",
+      "domain": "1041",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1271"
+    },
+    {
+      "range": "1049",
+      "domain": "1034",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1272"
+    },
+    {
+      "iri": "http://ekaw#locationOf",
+      "inverse": "1283",
+      "baseIri": "http://ekaw",
+      "range": "1083",
+      "label": {
+        "IRI-based": "locationOf"
+      },
+      "domain": "1030",
+      "attributes": [
+        "object"
+      ],
+      "id": "1273"
+    },
+    {
+      "range": "1054",
+      "domain": "1034",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1274"
+    },
+    {
+      "range": "1060",
+      "domain": "1034",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1275"
+    },
+    {
+      "iri": "http://ekaw#hasUpdatedVersion",
+      "inverse": "1185",
+      "baseIri": "http://ekaw",
+      "range": "1091",
+      "label": {
+        "IRI-based": "hasUpdatedVersion"
+      },
+      "domain": "1091",
+      "attributes": [
+        "object"
+      ],
+      "id": "1276"
+    },
+    {
+      "range": "1032",
+      "domain": "1034",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1277"
+    },
+    {
+      "range": "1052",
+      "domain": "1027",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1278"
+    },
+    {
+      "range": "1105",
+      "domain": "1048",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1279"
+    },
+    {
+      "range": "1072",
+      "domain": "1105",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1280"
+    },
+    {
+      "iri": "http://ekaw#publisherOf",
+      "baseIri": "http://ekaw",
+      "range": "1101",
+      "label": {
+        "IRI-based": "publisherOf"
+      },
+      "domain": "1026",
+      "attributes": [
+        "object"
+      ],
+      "id": "1281"
+    },
+    {
+      "range": "1087",
+      "domain": "1105",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1282"
+    },
+    {
+      "iri": "http://ekaw#heldIn",
+      "baseIri": "http://ekaw",
+      "range": "1030",
+      "label": {
+        "IRI-based": "heldIn"
+      },
+      "domain": "1083",
+      "attributes": [
+        "object"
+      ],
+      "id": "1283"
+    },
+    {
+      "range": "1077",
+      "domain": "1034",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1284"
+    },
+    {
+      "range": "1106",
+      "domain": "1034",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1285"
+    },
+    {
+      "iri": "http://ekaw#coversTopic",
+      "baseIri": "http://ekaw",
+      "range": "1098",
+      "label": {
+        "IRI-based": "coversTopic"
+      },
+      "domain": "1105",
+      "attributes": [
+        "object"
+      ],
+      "id": "1286"
+    },
+    {
+      "iri": "http://ekaw#partOfEvent",
+      "baseIri": "http://ekaw",
+      "range": "1048",
+      "label": {
+        "IRI-based": "partOfEvent"
+      },
+      "superproperty": [
+        "1136"
+      ],
+      "domain": "1024",
+      "attributes": [
+        "someValues",
+        "object",
+        "transitive"
+      ],
+      "id": "1287"
+    },
+    {
+      "range": "1028",
+      "domain": "1063",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1288"
+    },
+    {
+      "iri": "http://ekaw#hasEvent",
+      "inverse": "1162",
+      "baseIri": "http://ekaw",
+      "range": "1075",
+      "label": {
+        "IRI-based": "hasEvent"
+      },
+      "superproperty": [
+        "1182"
+      ],
+      "domain": "1028",
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "id": "1289"
+    },
+    {
+      "range": "1063",
+      "domain": "1044",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "id": "1290"
+    },
+    {
+      "iri": "http://ekaw#hasReview",
+      "inverse": "1228",
+      "baseIri": "http://ekaw",
+      "range": "1065",
+      "label": {
+        "IRI-based": "hasReview"
+      },
+      "domain": "1085",
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "id": "1291"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "29",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1293",
+      "domain": "1060",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9889",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1292"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1060",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1292",
+      "domain": "29",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9889",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1293"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "3",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1295",
+      "domain": "1063",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9827",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1294"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1063",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1294",
+      "domain": "3",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9827",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1295"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "39",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1297",
+      "domain": "1036",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.99",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1296"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1036",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1296",
+      "domain": "39",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.99",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1297"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "52",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1299",
+      "domain": "1072",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9807",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1298"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1072",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1298",
+      "domain": "52",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9807",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1299"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "63",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1301",
+      "domain": "1048",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1300"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1048",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1300",
+      "domain": "63",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1301"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "80",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1303",
+      "domain": "1080",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1302"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1080",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1302",
+      "domain": "80",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1303"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "113",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1305",
+      "domain": "1032",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1304"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1032",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1304",
+      "domain": "113",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1305"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "71",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1307",
+      "domain": "1105",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1306"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1105",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1306",
+      "domain": "71",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1307"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "86",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1309",
+      "domain": "1087",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9837",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1308"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1087",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1308",
+      "domain": "86",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9837",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1309"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "74",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1311",
+      "domain": "1051",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9878",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1310"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1051",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1310",
+      "domain": "74",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9878",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1311"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "35",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1313",
+      "domain": "1038",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1312"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1038",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1312",
+      "domain": "35",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.9801",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1313"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "52",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1315",
+      "domain": "1088",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.8860",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1314"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1088",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1314",
+      "domain": "52",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.8860",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1315"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "22",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1317",
+      "domain": "1092",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6248",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1316"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1092",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1316",
+      "domain": "22",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6248",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1317"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "35",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1319",
+      "domain": "1049",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6544",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1318"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1049",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1318",
+      "domain": "35",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6544",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1319"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "45",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1321",
+      "domain": "1071",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6666",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1320"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1071",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1320",
+      "domain": "45",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6666",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1321"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "3",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1323",
+      "domain": "1045",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6197",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1322"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1045",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1322",
+      "domain": "3",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6197",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1323"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "62",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1325",
+      "domain": "1067",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6085",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1324"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1067",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1324",
+      "domain": "62",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6085",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1325"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "62",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1327",
+      "domain": "1039",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6584",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1326"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1039",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1326",
+      "domain": "62",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6584",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1327"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1329",
+      "domain": "1091",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6887",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1328"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1091",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1328",
+      "domain": "1",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6887",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1329"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "52",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1331",
+      "domain": "1086",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6747",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1330"
+    },
+    {
+      "iri": "http://Conference_ekaw.owl#mapping",
+      "baseIri": "http://Conference_ekaw.owl",
+      "range": "1086",
+      "label": {
+        "undefined": "mapping"
+      },
+      "inverse": "1330",
+      "domain": "52",
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "score": [
+          {
+            "identifier": "Score",
+            "language": "undefined",
+            "value": "0.6747",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "Status",
+            "language": "undefined",
+            "value": "unreviewed",
+            "type": "label"
+          }
+        ]
+      },
+      "id": "1331"
+    }
+  ]
+}
