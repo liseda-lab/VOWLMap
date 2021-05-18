@@ -27062,7 +27062,7 @@ webvowl =
                     BaseProperty.apply(this, arguments);
 
                     this.label("mapping")
-                        .styleClass("mapping")
+                        .styleClass("objectproperty")
                         .type("owl:ObjectProperty");
                 };
                 o.prototype = Object.create(BaseProperty.prototype);
