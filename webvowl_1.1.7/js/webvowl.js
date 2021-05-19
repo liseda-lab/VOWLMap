@@ -4935,6 +4935,8 @@ webvowl =
                             redrawContent();
                             recalculatePositions();
                             graph.options().searchMenu().requestDictionaryUpdate();
+                            graph.options().tgtSearchMenu().requestDictionaryUpdate();
+                            graph.options().srcSearchMenu().requestDictionaryUpdate();
                             graph.resetSearchHighlight();
                         }
                         return graph;
@@ -6424,6 +6426,8 @@ webvowl =
                             centerGraphViewOnLoad = false;
                         }
                         graph.options().searchMenu().requestDictionaryUpdate();
+                        graph.options().tgtSearchMenu().requestDictionaryUpdate();
+                        graph.options().srcSearchMenu().requestDictionaryUpdate();
                         graph.options().editSidebar().updateGeneralOntologyInfo();
                         graph.options().editSidebar().updatePrefixUi();
                         graph.options().editSidebar().updateElementWidth();
@@ -8362,6 +8366,8 @@ webvowl =
                         aProp.enableEditing(autoEditElement);
                         graph.options().sidebar().updateSelectionInformation(aProp);
                         graph.options().searchMenu().requestDictionaryUpdate();
+                        graph.options().tgtSearchMenu().requestDictionaryUpdate();
+                        graph.options().srcSearchMenu().requestDictionaryUpdate();
 
                     }
 
@@ -8546,6 +8552,8 @@ webvowl =
                         aProp.enableEditing(autoEditElement);
                         newMapping = aProp;
                         graph.options().searchMenu().requestDictionaryUpdate();
+                        graph.options().tgtSearchMenu().requestDictionaryUpdate();
+                        graph.options().srcSearchMenu().requestDictionaryUpdate();
 
 
                     }

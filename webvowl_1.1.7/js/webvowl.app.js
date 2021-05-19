@@ -6609,7 +6609,6 @@ webvowl.app =
                                     sidebar.updateSelectionInformation(element);
                                     alignmentPane.updateStatusValue(element.id(), statusEditorSelection.value)
                                     if (d3.select("#containerForAlignment").attr("class") == "hidden") {
-
                                         graph.subgraphGenerator(graph.getCurrentId(), graph.getCurrentDegree())
                                         sidebar.updateSelectionInformation(element);
 
