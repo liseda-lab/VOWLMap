@@ -89,6 +89,14 @@ def merge2Ontos(srcFileName, tgtFileName):
 
     sortedIds=sortIds(srcData)
 
+    for a in srcData['classAttribute']:
+        if 'attributes' in a and 'external' in a['attributes']:
+            a['attributes'].remove('external')
+
+    for c in srcData['propertyAttribute']:
+        if 'attributes' in c and 'external' in c['attributes']:
+            c['attributes'].remove('external')
+
     for i in srcData:
         for j in tgtData:
             if i==j:
@@ -198,6 +206,8 @@ def merge2Ontos(srcFileName, tgtFileName):
                             sortedIds.append(newID)
                             
                     mergedOnto[i]=srcData[i]+tgtData[j]
+    
+
 
     return mergedOnto
 
